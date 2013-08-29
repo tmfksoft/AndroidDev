@@ -7,13 +7,13 @@
         version   = "1.2"
 		versionCode = "98">
 
-    <name>SmallURL</name>
+    <name>Android Dev</name>
 
     <description>
-        Shorten long URL's on the GO with the SmallURL Android Application!.
+        App for developing SmallURL Features
     </description>
 
-    <author href="http://smallurl.in" email="support@smallurl.in">
+    <author href="http://smallurl.in/dev/" email="support@smallurl.in">
         SmallURL Team
     </author>
 

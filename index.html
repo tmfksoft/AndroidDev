@@ -56,36 +56,9 @@
 <div class="container">
 		<center>
         <h2>
-            SmallURL
+            Dev app
         </h2>
-		<div id="form">
-			<h5>
-				Pop your URL in below and hit Smallify!
-			</h5>
-			<span id="alert" style="display:none">
-				<h5>WHOOPS!</h5>
-				<span id="alert_error">There was an error!</span>
-			</span>
-			<div data-role="fieldcontain">
-				<input name="" class="form-control" id="long_url" placeholder="URL Goes here..." value=""
-				type="text" data-mini="true">
-			</div>
-			<br/>
-			<input type="submit" data-theme="b" class="btn btn-primary" value="Smallify!" onclick="call_shortener(false);">
-		</div>
-		<div id="shortened" style="display:none">
-			<h5>
-				All done!<br/>Here's your SmallURL:
-			</h5>
-			<div data-role="fieldcontain">
-				<input name="" id="short_url" class="form-control" readonly placeholder="URL Goes here..." value=""
-				type="text" data-mini="true">
-			</div>
-			<br/>
-			<input type="button" data-theme="b" class="btn btn-primary" value="Smallify another!" onclick="reset_form();">
-
-		</div>
-		<!--<input type="button" data-theme="b" value="Copy 'Chicken' to the CB!" onclick="copy('Chicken');">-->
+		<input type="button" data-theme="b" value="Copy 'Chicken' to the CB!" class="btn btn-primary" onclick="copy('Chicken');">
 		</center>
       <hr>
 	  
