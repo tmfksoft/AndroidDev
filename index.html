@@ -64,6 +64,8 @@
             Dev app
         </h2>
 		<input type="button" data-theme="b" value="Copy 'Chicken' to the CB!" class="btn btn-primary" onclick="copy('Chicken');">
+		<br/>
+		<input type="button" value="Exit app" class="btn" onclick="window.close();">
 		<br>
 		<script>
 		document.addEventListener("menubutton", callMenu, false);
@@ -71,14 +73,7 @@
 			alert('Menu!');
 		}
 </script>
-<form name="keyform" id="keyform" onsubmit="return false">
-<p>        Prevent default:<label><input type="checkbox" name="keydownStop" value="1"> keydown</label>&nbsp;&nbsp;&nbsp;<label><input type="checkbox" name="keypressStop" value="1"> keypress</label>&nbsp;&nbsp;&nbsp;<label><input type="checkbox" name="keyupStop" value="1"> keyup</label><br>
-        Ignore:<label><input type="checkbox" name="keydownIgnore" value="1"> keydown</label>&nbsp;&nbsp;&nbsp;<label><input type="checkbox" name="keypressIgnore" value="1"> keypress</label>&nbsp;&nbsp;&nbsp;<label><input type="checkbox" name="keyupIgnore" value="1"> keyup</label><br>
-Focus on the input below and press.<br>
-<input type="text" style="font-size:150%;width:600px" id="kinput"><br>
-Log:<br>
-<textarea rows="18" onfocus="this.blur()" style="width:600px;border:1px solid black"></textarea><br>
-<input type="button" value="Clear" onclick="logClear('key')"></p></form>
+
 		</center>
       <hr>
 	  
